@@ -1,0 +1,27 @@
+.code-editor {
+  display: flex;
+  height: 100vh;
+}
+
+.code-inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.code-inputs textarea {
+  flex: 1;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.code-preview {
+  flex: 1;
+  border-left: 1px solid #ccc;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
